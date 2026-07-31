@@ -1,6 +1,8 @@
 import styles from "./header.module.css";
 const Header = () => {
-  return <div className={styles.header}>My Todo List - Henry</div>;
+  return <div className={styles.header}>My Todo List - Henry
+  <p>En</p>
+  </div>;
 };
 
 export default Header;
